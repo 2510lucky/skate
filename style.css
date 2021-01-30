@@ -1,0 +1,39 @@
+.jumbotron{
+    text-align: center;
+    background: none;
+}
+.sectionLight{
+    background-color: lightgray;
+}
+.image-txt{
+    color: lightseagreen;
+}
+.sectionDark{
+    background-color: rgb(179, 178, 178);
+    margin: 0 15px 0 15px;
+}
+.row{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.cool-button{
+    display: block;
+    margin: auto;
+    background-color: red;
+    color: white;
+}
+
+@media (max-width:11000px){
+    .change-img{
+        padding-top: 20px;
+        display: block;
+        margin: auto;
+    }
+    .col-change{
+        padding-top: 20px;
+    }
+    .align-image-center{
+     display: block;
+     margin: auto;
+    }
+}
