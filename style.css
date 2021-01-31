@@ -7,14 +7,12 @@
 }
 .sectionLight-2{
     background-color: lightgray;
-    margin: 0 15px 0 15px;
 }
 .image-txt{
     color: lightseagreen;
 }
 .sectionDark{
     background-color: rgb(179, 178, 178);
-    margin: 0 15px 0 15px;
 }
 .row{
     padding-bottom: 15px;
@@ -43,5 +41,6 @@
     display: block;
     margin: auto;
 }
-
+.container-fluid{
+    padding:0;
 }
