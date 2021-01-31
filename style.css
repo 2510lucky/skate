@@ -1,3 +1,4 @@
+
 .jumbotron{
     text-align: center;
     background: none;
@@ -7,14 +8,12 @@
 }
 .sectionLight-2{
     background-color: lightgray;
-  
 }
 .image-txt{
     color: lightseagreen;
 }
 .sectionDark{
-    background-color: rgb(179, 178, 178);
-  
+    background-color: white; 
 }
 .row{
     padding-bottom: 15px;
@@ -41,10 +40,10 @@
 }
 .change-img{
     display: block;
-    margin: auto;
 }
 .container-fluid{
     padding:0;
+    margin: 0;
 }
 .paragraphPadding{
     padding-top: 10px;
