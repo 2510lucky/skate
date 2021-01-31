@@ -7,12 +7,14 @@
 }
 .sectionLight-2{
     background-color: lightgray;
+  
 }
 .image-txt{
     color: lightseagreen;
 }
 .sectionDark{
     background-color: rgb(179, 178, 178);
+  
 }
 .row{
     padding-bottom: 15px;
@@ -43,4 +45,10 @@
 }
 .container-fluid{
     padding:0;
+}
+.paddingCarousel{
+    padding:0 2px 0 2px;
+}
+.paragraphPadding{
+    padding-top: 10px;
 }
