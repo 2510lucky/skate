@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-  <link href="bootstrap-grid.min.css" rel="stylesheet">
-  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css" rel="stylesheet">
+  <link href="bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
   <title>Skateboarding</title>
 </head>
@@ -60,7 +60,7 @@
       <div class="row">
         <div class="col"></div>
         <div class="col-sm-12 col-md-6">
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div id="carouselExampleControls" class="carousel slide paddingCarousel" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100" src="skate-1.jpg" alt="First slide">
@@ -100,109 +100,117 @@
       </div>
       <div class="col-sm-12 col-md-6">
         <div class="row-sm-12">
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-            letters,as opposed to using 'Content here, content here', making it look like readable English..</p>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-9">
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. </p>
-          </div>
-          <div class="col-sm-12 col-md-3">
-            <img class="img-fluid change-img" src="skate-6.jpg">
+          <div class="col-sm-12 paragraphPadding">
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+              letters,as opposed to using 'Content here, content here', making it look like readable English..</p>
           </div>
         </div>
-      </div>
-      <div class="col"></div>
-    </div>
-    <div class="row">
-      <button class="btn btn-lg cool-button" data-toggle="modal" data-target="#coolStuffModal">Get Cool Stuff</button>
-    </div>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog" aria-labelledby="coolModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="coolModalLabel">Get Ready for some fun!!!</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="container-fluid">
+        <div class="row-sm-12">
+          <div class="col-sm-12">
             <div class="row">
-              <div class="col-sm-12">
-                <img class="img-fluid" src="kfc.png">
+              <div class="col-sm-12 col-md-9">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                  alteration
+                  in some form, by injected humour, or randomised words which don't look even slightly believable. If
+                  you
+                  are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
+                  hidden in
+                  the middle of text. </p>
+              </div>
+              <div class="col-sm-12 col-md-3">
+                <img class="img-fluid change-img" src="skate-6.jpg">
               </div>
             </div>
-            <form>
-              <div class="form-group">
-                <label for="forName">What is your name?</label>
-                <input type="text" class="form-control" id="forName" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <label for="forEmail">Where should we send you the cool stuff!!!</label>
-                <input type="text" class="form-control" id="forEmail" placeholder="Email">
-              </div>
-            </form>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <button class="btn btn-lg cool-button" data-toggle="modal" data-target="#coolStuffModal">Get Cool
+          Stuff</button>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog" aria-labelledby="coolModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="coolModalLabel">Get Ready for some fun!!!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-12">
+                  <img class="img-fluid" src="kfc.png">
+                </div>
+              </div>
+              <form>
+                <div class="form-group">
+                  <label for="forName">What is your name?</label>
+                  <input type="text" class="form-control" id="forName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="forEmail">Where should we send you the cool stuff!!!</label>
+                  <input type="text" class="form-control" id="forEmail" placeholder="Email">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- ##Section-3## -->
+    <!-- ##Section-3## -->
 
-  <div class="sectionLight-2">
-    <div class="row">
-      <div class="col-sm-12 col-lg-4">
-        <img class="img-fluid imageTransfer" src="stunt-2.jpg">
-        <div class="row">
-          <div class="col-sm-12">
-            <button class="btn btn-lg cool-button-2">Know More</button>
+    <div class="sectionLight-2">
+      <div class="row">
+        <div class="col-sm-12 col-lg-4">
+          <img class="img-fluid imageTransfer" src="stunt-2.jpg">
+          <div class="row">
+            <div class="col-sm-12">
+              <button class="btn btn-lg cool-button-2">Know More</button>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-sm-12 col-lg-4">
-        <img class="img-fluid imageTransfer" src="stunt-3.jpg">
-        <div class="row">
-          <div class="col-sm-12">
-            <button class="btn btn-lg cool-button-2">Know More</button>
+        <div class="col-sm-12 col-lg-4">
+          <img class="img-fluid imageTransfer" src="stunt-3.jpg">
+          <div class="row">
+            <div class="col-sm-12">
+              <button class="btn btn-lg cool-button-2">Know More</button>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-sm-12 col-lg-4">
-        <img class="img-fluid imageTransfer" src="stunt-4.jpg">
-        <div class="row">
-          <div class="col-sm-12">
-            <button class="btn btn-lg cool-button-2">Know More</button>
+        <div class="col-sm-12 col-lg-4">
+          <img class="img-fluid imageTransfer" src="stunt-4.jpg">
+          <div class="row">
+            <div class="col-sm-12">
+              <button class="btn btn-lg cool-button-2">Know More</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  
-  
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="bootstrap.min.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
