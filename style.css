@@ -40,6 +40,7 @@
 }
 .change-img{
     display: block;
+    margin: auto;
 }
 .container-fluid{
     padding:0;
@@ -47,4 +48,25 @@
 }
 .paragraphPadding{
     padding-top: 10px;
+}
+.footer-style{
+    background-color: lightslategrey;
+    margin: auto;
+}
+ul.ul-style{
+    list-style: none;
+    display: block;
+    margin: auto;
+}
+.float-list{
+    float: left;
+
+    margin:5px 8px 5px 8px;
+    color: white;
+}
+a.anchor-tag{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;   
 }
