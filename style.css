@@ -1,4 +1,3 @@
-
 .jumbotron{
     text-align: center;
     background: none;
@@ -55,18 +54,27 @@
 }
 ul.ul-style{
     list-style: none;
-    display: block;
-    margin: auto;
+    padding: 0%;
 }
 .float-list{
     float: left;
-
-    margin:5px 8px 5px 8px;
     color: white;
-}
+    margin:0 0 5px 0;
+} 
 a.anchor-tag{
     text-decoration: none;
     color: white;
     display: block;
     text-align: center;   
+}
+iframe.modal-style{
+    width:100%;
+}
+img.float-list1{
+    float: left;
+    margin: 5px;
+} 
+.favicon{
+   display: block;
+   margin: auto;
 }
