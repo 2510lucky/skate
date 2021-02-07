@@ -7,6 +7,7 @@
 }
 .sectionLight-2{
     background-color: lightgray;
+    margin:0 15px;
 }
 .image-txt{
     color: lightseagreen;
@@ -40,10 +41,6 @@
 .change-img{
     display: block;
     margin: auto;
-}
-.container-fluid{
-    padding:0;
-    margin: 0;
 }
 .paragraphPadding{
     padding-top: 10px;
